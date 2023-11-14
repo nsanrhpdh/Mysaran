@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".LogActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/gambar1"
+            android:layout_width="163dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/outline1"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:hint="username"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/outline1"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:hint="Log In"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Belum punya akun?
+                                                Ayo registrasi sekarang!"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:text="register"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
